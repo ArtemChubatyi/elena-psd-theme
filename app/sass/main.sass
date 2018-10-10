@@ -41,6 +41,7 @@ b, strong
 	font-weight: bold
 
 header
+	min-height: 900px
 	height: 100vh	
 	background-image: url(../img/header-bg.jpg)
 	background-size: cover
@@ -49,7 +50,7 @@ header
 	text-align: center
 	.logo
 		font-size: 66px
-		margin-top: 105px
+		margin-top: 10vh
 		font-family: 'Molle', cursive
 		text-transform: capitalize
 	nav
@@ -123,8 +124,8 @@ header
 		cursor: pointer
 .features
 	padding: 
-		top: 70px
-		bottom: 70px
+		top: 80px
+		bottom: 80px
 	text-align: center
 	font-family: $pt-sans
 	background-color: #eaeaeb
@@ -148,8 +149,8 @@ header
 
 .second-features
 	padding: 
-		top: 70px
-		bottom: 70px
+		top: 80px
+		bottom: 80px
 	&__image
 		height: 316px
 		width: 100%
@@ -186,5 +187,39 @@ header
 		font-weight: bold
 		cursor: pointer
 		font-size: 19px
-		margin-bottom: 30px
+
+.supported
+	padding: 
+		top: 80px
+		bottom: 80px
+	font-family: $pt-sans
+	background-color: #eaeaeb
+	&__title
+		width: 100%
+		margin-top: 40px
+		font-size: 24px
+		font-weight: bold
+		text-transform: uppercase
+		color: #40474e
+		padding-bottom: 20px
+		border-bottom: 2px solid #2931390f
+		margin-left: 10px
+		&::before
+			content: url(../img/qwey.png)
+			padding-right: 10px
+	&__description
+		margin-top: 35px
+		color: #787b80
+		font-size: 21px
+	&__button
+		margin-top: 50px
+		width: 145px
+		height: 60px
+		background-color: #d2d5da
+		border: none
+		border-radius: 35px
+		color: #fff
+		font-weight: bold
+		cursor: pointer
+		font-size: 19px
 @import "media" // Always at the end
