@@ -46,17 +46,36 @@ section
 		bottom: 80px 
 	font-family: $pt-sans
 
+.row *
+	z-index: 1
+
 header
+	display: flex
 	min-height: 900px
 	height: 100vh	
 	background-image: url(../img/header-bg.jpg)
 	background-size: cover
+	background-position: center center
 	color: #fff
 	text-transform: uppercase
 	text-align: center
+	z-index: 0
+	&::after
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		left: 0
+		min-height: 900px
+		height: 100vh	
+		width: 100%
+		background-color: #00000080
+		opacity: 1
+		z-index: 0
+
 	.logo
-		font-size: 66px
 		margin-top: 10vh
+		font-size: 66px
 		font-family: 'Molle', cursive
 		text-transform: capitalize
 	nav
@@ -117,6 +136,7 @@ header
 			margin-left: 30px
 	.header__button
 		margin-top: 100px
+		margin-bottom: 10vh
 		width: 350px
 		height: 70px
 		background-color: $accent
@@ -190,7 +210,6 @@ header
 		font-size: 19px
 
 .supported
-	
 	background-color: #eaeaeb
 	&__title
 		width: 100%
@@ -204,7 +223,7 @@ header
 		margin-left: 10px
 		&::before
 			content: url(../img/qwey.png)
-			padding-right: 10px
+			padding-right: 20px
 	&__description
 		margin-top: 35px
 		color: #787b80
@@ -256,4 +275,119 @@ header
 		color: #50c3af
 		margin-top: 30px
 		font-size: 19px
+
+.send
+	background-color: #eaeaeb
+	&__title
+		width: 80%
+		margin-top: 40px
+		font-size: 24px
+		font-weight: bold
+		text-transform: uppercase
+		color: #40474e
+		padding-bottom: 20px
+		border-bottom: 2px solid #2931390f
+		margin-left: 10px
+		&::before
+			content: url(../img/plane.png)
+			padding-right: 20px
+		&2
+			width: 80%
+			margin-top: 40px
+			font-size: 24px
+			font-weight: bold
+			text-transform: uppercase
+			color: #40474e
+			padding-bottom: 20px
+			border-bottom: 2px solid #2931390f
+			margin-left: 10px
+		&2::before
+			padding-right: 20px
+			content: url(../img/pen.png)
+	&__description
+		width: 90%
+		margin-top: 35px
+		color: #787b80
+		font-size: 21px
+	&__button
+		margin-top: 50px
+		width: 145px
+		height: 60px
+		background-color: $accent
+		border: none
+		border-radius: 35px
+		color: #fff
+		font-weight: bold
+		cursor: pointer
+		font-size: 19px
+.just
+	&__image
+		background-image: url(../img/red-carpet.png)
+		background-size: cover
+		background-position: center center
+		height: 311px	
+	&__title
+		width: 100%
+		font-size: 24px
+		font-weight: bold
+		text-transform: uppercase
+		color: #40474e
+		padding-bottom: 20px
+		border-bottom: 2px solid #2931390f
+		margin-left: 10px
+	&__description
+		margin-top: 35px
+		color: #787b80
+		font-size: 21px
+	&__button
+		margin-top: 50px
+		width: 145px
+		height: 60px
+		background-color: #d2d5da
+		border: none
+		border-radius: 35px
+		color: #fff
+		font-weight: bold
+		cursor: pointer
+		font-size: 19px
+
+.testimonials
+	background-color: #50c3af
+	&__title
+		margin: auto
+		text-align: center
+		color: #ffffff
+		width: 415px
+		font-size: 24px
+		font-weight: bold
+		text-transform: uppercase
+		padding-bottom: 20px
+		border-bottom: 2px solid #f5f5f51a
+		&::before
+			content: url(../img/star.png)
+			padding-right: 20px
+	&__wrapper
+		display: flex
+		justify-content: space-between
+		height: 24px
+		margin-top: 70px
+		margin-bottom: 30px
+		
+.footer__wrapper
+	display: flex
+	justify-content: space-between
+	.footer__paragraph
+		margin-top: 30px
+		margin-bottom: 30px
+		color: #787b80
+		font-size: 21px
+		span
+			font-weight: 700
+	.footer__social-links
+		.social-links__item
+			margin-top: 30px
+			display: inline-block
+			width: 40px
+			height: 40px
+			
 @import "media" // Always at the end
