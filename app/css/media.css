@@ -1,0 +1,361 @@
+@media screen and (max-width: 1440px) and (min-width: 992px) {
+    header {
+        min-height: 628px;
+    }
+    header .logo {
+        font-size: 52px;
+        margin-top: 11vh;
+    }
+    header .header__title {
+        font-size: 53px;
+        margin-top: 79px;
+        padding-bottom: 0;
+    }
+    header nav ul .nav__item {
+        margin-left: 15px;
+		margin-right: 15px;
+    }
+    header nav ul .nav__item a {
+        font-size: 13px;
+    }
+    header .header__description {
+        font-size: 15px;
+    }
+    header .header__button {
+        width: 235px;
+        height: 48px;
+        font-size: 15px;
+        margin-bottom: 16vh;
+        margin-top: 83px;
+    }
+    header::after {
+        min-height: 628px;
+    }
+    section {
+        padding-top: 69px;
+        padding-bottom: 69px;
+    }
+    .features__image img {
+        height: 55px;
+    }
+    *[class$="__title"] {
+        font-size: 17px;
+    }
+    .send__title2 {
+        font-size: 17px;
+    }
+    *[class$="__description"] {
+        font-size: 15px;
+        margin-top: 29px;
+    }
+    .second-features__image {
+        height: 255px;
+    }
+    .second-features__image2 {
+        height: 255px;
+    }
+    *[class$=__button-green] {
+        width: 98px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 36px;
+        line-height: 35px;
+    }
+    *[class$=__button-gray] {
+        width: 98px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 36px;
+        line-height: 35px;
+    }
+    .portfolio__button {
+        font-size: 15px;
+    }
+    .just__image {
+        height: 283px;
+    }
+    .footer__wrapper .footer__paragraph {
+        font-size: 15px;
+    }
+}   
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    header {
+        min-height: 628px;
+    }
+    header .logo {
+        font-size: 52px;
+        margin-top: 11vh;
+    }
+    header .header__title {
+        font-size: 53px;
+        margin-top: 79px;
+        padding-bottom: 0;
+    }
+    header nav ul .nav__item {
+        margin-left: 15px;
+		margin-right: 15px;
+    }
+    header nav ul .nav__item a {
+        font-size: 13px;
+    }
+    header .header__description {
+        font-size: 15px;
+    }
+    header .header__button {
+        width: 235px;
+        height: 48px;
+        font-size: 15px;
+        margin-bottom: 16vh;
+        margin-top: 83px;
+    }
+    header::after {
+        min-height: 628px;
+    }
+    section {
+        padding-top: 69px;
+        padding-bottom: 69px;
+    }
+    .features__image img {
+        height: 55px;
+    }
+    *[class$="__title"] {
+        font-size: 17px;
+    }
+    .send__title2 {
+        font-size: 17px;
+    }
+    *[class$="__description"] {
+        font-size: 15px;
+        margin-top: 29px;
+    }
+    .second-features__item {
+        margin-bottom: 60px;
+    }
+    .second-features__image {
+        height: 342px;
+    }
+    .second-features__image2 {
+        height: 342px;
+    }
+    *[class$=__button-green] {
+        width: 98px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 36px;
+        line-height: 35px;
+    }
+    *[class$=__button-gray] {
+        width: 98px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 36px;
+        line-height: 35px;
+    }
+    .portfolio__button {
+        font-size: 15px;
+        margin-bottom: 60px;
+    }S
+    .portfolio__image, .portfolio__image2, .portfolio__image3  {
+        height: 342px;
+    }
+    .just__image {
+        height: 283px;
+    }
+    .footer__wrapper .footer__paragraph {
+        font-size: 15px;
+    } 
+}
+  
+
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    header {
+        min-height: 628px;
+    }
+    header .logo {
+        font-size: 52px;
+        margin-top: 11vh;
+    }
+    header .header__title {
+        font-size: 53px;
+        margin-top: 79px;
+        padding-bottom: 0;
+    }
+    header nav ul .nav__item {
+        margin-left: 15px;
+		margin-right: 15px;
+    }
+    header nav ul .nav__item a {
+        font-size: 13px;
+    }
+    header .header__description {
+        font-size: 15px;
+    }
+    header .header__button {
+        width: 235px;
+        height: 48px;
+        font-size: 15px;
+        margin-bottom: 16vh;
+        margin-top: 83px;
+    }
+    header::after {
+        min-height: 628px;
+    }
+    section {
+        padding-top: 69px;
+        padding-bottom: 69px;
+    }
+    .features__image img {
+        height: 55px;
+    }
+    .features__description {
+        margin-bottom: 60px;
+    }
+    *[class$="__title"] {
+        font-size: 17px;
+    }
+    .send__title2 {
+        font-size: 17px;
+    }
+    *[class$="__description"] {
+        font-size: 15px;
+        margin-top: 29px;
+    }
+    .second-features__item {
+        margin-bottom: 60px;
+    }
+    .second-features__image {
+        height: 342px;
+    }
+    .second-features__image2 {
+        height: 342px;
+    }
+    *[class$=__button-green] {
+        width: 98px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 36px;
+        line-height: 35px;
+    }
+    *[class$=__button-gray] {
+        width: 98px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 36px;
+        line-height: 35px;
+    }
+    .portfolio__button {
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+    .portfolio__image, .portfolio__image2, .portfolio__image3  {
+        height: 342px;
+    }
+    .send__item {
+        margin-bottom: 60px;
+    }
+    .just__image {
+        height: 283px;
+    }
+    .footer__wrapper .footer__paragraph {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 575px) and (min-width: 320px) {
+    header {
+        min-height: 628px;
+    }
+    header .logo {
+        font-size: 52px;
+        margin-top: 11vh;
+    }
+    header .header__title {
+        font-size: 53px;
+        margin-top: 79px;
+        padding-bottom: 0;
+    }
+    header nav ul .nav__item {
+        margin-left: 15px;
+		margin-right: 15px;
+    }
+    header nav ul .nav__item a {
+        font-size: 13px;
+    }
+    header .header__description {
+        font-size: 15px;
+    }
+    header .header__button {
+        width: 235px;
+        height: 48px;
+        font-size: 15px;
+        margin-bottom: 16vh;
+        margin-top: 83px;
+    }
+    header::after {
+        min-height: 628px;
+    }
+    section {
+        padding-top: 69px;
+        padding-bottom: 69px;
+    }
+    .features__image img {
+        height: 55px;
+    }
+    .features__description {
+        margin-bottom: 60px;
+    }
+    *[class$="__title"] {
+        font-size: 17px;
+    }
+    .send__title2 {
+        font-size: 17px;
+    }
+    *[class$="__description"] {
+        font-size: 15px;
+        margin-top: 29px;
+    }
+    .second-features__item {
+        margin-bottom: 60px;
+    }
+    .second-features__image {
+        height: 342px;
+    }
+    .second-features__image2 {
+        height: 342px;
+    }
+    *[class$=__button-green] {
+        width: 110px;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 36px;
+    }
+    *[class$=__button-gray] {
+        width: 110px;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 36px;
+    }
+    .portfolio__button {
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+    .portfolio__image, .portfolio__image2, .portfolio__image3  {
+        height: 342px;
+    }
+    .send__item {
+        margin-bottom: 60px;
+    }
+    .just__image {
+        height: 283px;
+    }
+    .footer__wrapper .footer__paragraph {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 319px) {
+
+}
