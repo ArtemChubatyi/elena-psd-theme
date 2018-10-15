@@ -8,6 +8,8 @@
 ::selection
 	background-color: $accent
 	color: #fff
+* 
+	transition: 0.5s
 
 body
 	font-size: 16px
@@ -48,7 +50,9 @@ section
 
 .row *
 	z-index: 1
-
+.row 
+	margin-left: 0
+	margin-right: 0
 *[class$="__title"]
 	margin-top: 40px
 	font-size: 24px
@@ -110,6 +114,7 @@ header
 		background-color: #00000080
 		opacity: 1
 		z-index: 0
+		transition: 0.5s
 
 	.logo
 		margin-top: 10vh
